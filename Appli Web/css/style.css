@@ -28,6 +28,8 @@ body{
 
   background-color: #234b93;
   color: white;
+  margin: 0px;
+  padding: 0px;
   /*height: 12em;*/
 
 
@@ -36,6 +38,7 @@ body{
 .main2{
 
   margin: 0px;
+  padding: 0px;
   background-color: #234b93;
   color: white;
 

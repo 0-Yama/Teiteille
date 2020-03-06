@@ -29,15 +29,24 @@
 
         <nav>
           <ul class="nav nav-pills nav-stacked">
+
+            <?php if (!isset($_SESSION['mail'])){ ?>
             <li><a href="inscription.php">Inscription</a></li>
             <li> <a href="connexion.php">Connexion</a> </li>
+            <?php
+          } if (isset($_SESSION['mail'])){ ?>
             <li><a href="devis.php">Demande de devis</a></li>
             <li><a href="profile.php">Votre profile</a></li>
+            <li><a href="deconnexion.php">Déconnexion</a></li>
+            <?php
+              }
+             ?>
+
           </ul>
         </nav>
       </div>
 
-      <div class="col-sm-10 main2">
+      <div class="col-sm-10 container-fluid main2">
 
         <div class="col-sm-5 input-group src-bar">
           <input type="text" class="form-control" name="search" placeholder="Rechercher...">
@@ -57,6 +66,9 @@
             echo "Pas connecté";
           }
           ?>
+        </div>
+        <div>
+          <img class="img-responsive" src="images/bar.jpg" alt="bannière">
         </div>
 
       </div>
