@@ -1,0 +1,90 @@
+header{
+
+  background-color: #2c2a2a;
+  color: white;
+  height: 5em;
+  font-family: helvetica;
+
+}
+
+
+footer{
+
+  background-color: #2c2a2a;
+  color: white;
+  font-family: helvetica;
+
+}
+
+
+body{
+  background-color: #234b93;
+  color: white;
+  font-family: helvetica;
+}
+
+
+.main{
+
+  background-color: #234b93;
+  color: white;
+  /*height: 12em;*/
+
+
+}
+
+.main2{
+
+  margin: 0px;
+  background-color: #234b93;
+  color: white;
+
+}
+
+.navig{
+
+  background-color: white;
+  height: 50em;
+
+}
+
+.src-bar{
+
+  top: 12px;
+
+}
+
+.img{
+
+  /*background-color: #858585;*/
+  color: white;
+
+}
+
+.bluebg{
+
+  background-color: #234b93;
+  color: white;
+  font-family: helvetica;
+
+}
+
+.profile{
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.formulaire{
+
+  width: 50%;
+
+}
+
+.btn-form{
+
+  color: #234b93;
+
+}
