@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1580660734 source:c:\users\o-yama\desktop\projet c\new qr create\main.c
+	<stdbool.h>
+	<stddef.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"qrcodegen.h"
+	"qrcodegen.c"
+	<stdint.h>
+	<malloc.h>
+
+1580086897 c:\users\o-yama\desktop\projet c\new qr create\qrcodegen.h
+	<stdbool.h>
+	<stddef.h>
+	<stdint.h>
+
+1580086897 c:\users\o-yama\desktop\projet c\new qr create\qrcodegen.c
+	<assert.h>
+	<limits.h>
+	<stdlib.h>
+	<string.h>
+	"qrcodegen.h"
+
